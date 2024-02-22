@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="apiscript.js" defer></script>
+    <title>api Task</title>
+
+</head>
+<body>
+   <div class="search_box">
+    <h2>Table Data</h2>
+    <input type="text" placeholder="Search Here" class="search" id="mySearch" onkeyup="searchFunc()">
+</div>
+    <div class="Container">
+       
+<table class="data-table" id="myTable">
+
+    <thead >
+        <tr class="table_row">
+           
+        </tr>
+    </thead> 
+    
+</table>
+
+</div>
+<div class="btndiv">
+    <button onclick="prevPage()" class="prepage btn">Prepage</button>
+    <button onclick="nextPage()" class="nextpage btn">Nextpage</button>
+ </div>
+</body>
+</html>
